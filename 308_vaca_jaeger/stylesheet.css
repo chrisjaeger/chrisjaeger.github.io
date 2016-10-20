@@ -122,10 +122,14 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	
 }
 
-.map {
+/*.map {
 	float:right;
 	padding:20px;
 	
+}*/
+
+td {
+vertical-align:top;
 }
 
 .column1 {
@@ -314,4 +318,8 @@ h2 {
 	position:absolute;
 	top:1161px;
 	left:697px;
+}
+
+table tr td {
+	clear:both;
 }
